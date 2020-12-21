@@ -8,6 +8,11 @@
             "email": "samymassoud@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+          "Devtools360\\": "src/Devtools360/"
+        }
+    },
     "require": {},
     "minimum-stability": "dev"
 }
