@@ -1,0 +1,13 @@
+{
+    "name": "devtools360/macaddresslookup",
+    "description": "Find Macaddress vendor from the mac address prefix using cisco vendorMacs.xml file from https://devtools360.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samy Massoud",
+            "email": "samymassoud@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev"
+}
