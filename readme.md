@@ -19,9 +19,9 @@ The package will search through the XML file of vendorMacs.xml for the company n
 ```
 
 ## How to use with Laravel
-This package will work out of the box with laravel framework, just follow the above steps for installing the package, and to use it in any class just add the following namespace.<br/>
+This package will work out of the box with Laravel framework, just follow the above steps for installing the package, and to use it in any class just add the following namespace.<br/>
 `use \Devtools360\MacAddressLookup;`<br/>
-Then you can initiate the class or use the dependency injection of laravel to initiate it for you.
+Then you can initiate the class or use the dependency injection of Laravel to initiate it for you.
 
 ## Set the path seprately
 If this package was used with Laravel dependency injection it will not set the path for you, so you can easily call setFilePath to do the same as follows.
@@ -30,7 +30,7 @@ $mac = new MacAddressLookup();
 $mac->setFilePath("FILE PATH HERE");
 ```
 ## Issue or suggestion
-Please feel free to open bug report or pull request to this repo.
+Please feel free to open a bug report or pull request to this repo.
 
 ## Thanks to
 The website [DevTools360](https://devtools360.com/) for providing the updated cisco vendorMacs.xml file.<br/>
