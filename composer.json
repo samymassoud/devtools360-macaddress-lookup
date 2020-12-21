@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "Devtools360\\": "src/"
+          "Devtools360": "src/"
         }
     },
     "minimum-stability": "dev"
