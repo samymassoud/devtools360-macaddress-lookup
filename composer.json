@@ -9,7 +9,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {
+        "psr-0": {
           "Devtools360": "src/"
         }
     },
