@@ -13,6 +13,5 @@
           "Devtools360\\": "src/Devtools360/"
         }
     },
-    "require": {},
     "minimum-stability": "dev"
 }
