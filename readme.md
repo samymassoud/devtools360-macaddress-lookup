@@ -10,7 +10,7 @@ The package will search through the XML file of vendorMacs.xml for the company n
 
 ```
 <?php
-    require_once('vendor/autoload.php);
+    require_once __DIR__ . '/vendor/autoload.php';
     use \Devtools360\MacAddressLookup;
     $file_path ="REPLACE THIS WITH THE XML FILE PATH";
     $mac = new MacAddressLookup($file_path);
